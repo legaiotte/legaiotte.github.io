@@ -14,14 +14,6 @@ paths = "on"
 taxonomies = "on"
 anchors = "on"
 
-[translations]
-Biography = "Biography"
-Published = "Published"
-Interests = "Interests"
-Education = "Education"
-Abstract = "Abstract"
-
-
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -31,8 +23,5 @@ highlight_code = true
 # Put all your custom variables here
 # Image of your avatar displayed on the landing page
 contact_in_index = false
-avatar = "static/pictures/nalinha.jpg"
-# Image of the favicon
-favicon = "static/pictures/nalinha.jpg"
 background = "static/pictures/nalinha.jpg"
 
