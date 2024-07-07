@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<HTML lang="en_us">
+    <head>
+        <meta content="width=device-width,initial-scale=1.0" name="viewport">
+
+        <title>{{ config.title }}</title>
+        <link rel="stylesheet" href="tailwind.css" media="all" />
+        <link rel="stylesheet" href="style.css" media="all" />
+        <script src="https://kit.fontawesome.com/32aa403b75.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="flex flex-row p-0 m-0 flex-nowrap max-h-screen overflow-hidden">
+        {%- include "sidebar.html" -%}
+
+        <main class="flex-grow flex flex-col items-stretch overflow-y-auto" id="main">
+            {%- include "cover.html" -%}
+
+            {%- include "about.html" -%}
+
+            {%- include "skills.html" -%}
+
+            {%- include "projects.html" -%}
+
+            {%- include "education.html" -%}
+
+            {%- include "contact.html" -%}
+
+            <h1 class="text-2xl my-4 font-bold text-pink-900 text-center">
+                Thank You for your time <i class="fas fa-heart"></i>
+            </h1>
+        </main>
+
+        <script type="text/javascript" defer async src="script.js"></script>
+    </body>
+</HTML>

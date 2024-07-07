@@ -1,0 +1,52 @@
+{%- set education = get_page(path="education.md") -%}
+
+{%- set heading = education.title | trim -%}
+{%- set intro = education.content -%}
+{%- set items = education.extra.item -%}
+
+<section id="" class="py-6 sm:mx-4 px-1 sm:px-4 my-4 sm:rounded-lg" style="background-color: #272727">
+    {% if education.extra.anchor_name is defined %}
+        <a name="{{- education.extra.anchor_name | trim -}}"></a>
+    {% endif %}
+
+    <h1 class="text-3xl text-white w-full"><b class="pr-2 text-pink-400">#</b>{{- heading -}}</h1>
+    <div class="text-gray-200 text-lg px-4 section-description">
+        {{- intro | spaceless | trim | safe -}}
+    </div>
+    <div class="flex flex-row flex-wrap mt-2 relative">
+
+        {%- if education.extra.cover is defined -%}
+            <span class="absolute left-0 bottom-0 w-full h-full bg-contain bg-right-top bg-no-repeat"
+                    style="background-image: url('{{- education.extra.cover -}}')"></span>
+           <span class="absolute left-0 bottom-0 w-full h-full opacity-70" style="background-color: #272727"></span>
+        {%- endif -%}
+
+        <div class="px-2 relative border-gray-300">
+            {%- set items_count = items | length -%}
+            {%- for item in items -%}
+                {%- set i = loop.index -%}
+                {%- set name = item.name | trim -%}
+                {%- set duration = item.duration | trim -%}
+                {%- set bullets = item.info -%}
+                {%- set document = item.doc -%}
+                <div class="my-2 relative">
+                    {# Do not show vertical line in last item #}
+                    {%- if i != items_count -%}
+                        <span class="h-full w-2px bg-gray-400 left-1 absolute top-6"></span>
+                    {%- endif -%}
+                    <i class="fas fa-circle text-pink-400 text-sm pr-2"></i>
+                    <h3 class="text-xl inline text-white">{{- name -}}</h3>
+                    <i class="text-gray-400">{{- duration -}}</i>
+                    <p class="text-gray-200 pl-6">
+                        {%- for bullet in bullets -%}
+                            {{- "- " ~ bullet -}}<br/>
+                        {%- endfor -%}
+                    - <a href="{{document}}" class="underline text-gray-100">Achivements</a>
+                    </p>
+                </div>
+            {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</section>
+
