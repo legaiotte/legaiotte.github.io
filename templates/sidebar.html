@@ -1,0 +1,72 @@
+{%- import "macros/social_icons.html" as social_icons -%}
+
+{# All sidebar details are built from sidebar frontmatter in content/sidebar.md #}
+{%- set sidebar = get_page(path="sidebar.md") -%}
+
+{%- set contact = get_page(path="contact.md") -%}
+
+{%- set name = sidebar.title | trim | title -%}
+{%- set intro = sidebar.description | trim -%}
+{%- set location = contact.extra.location | trim -%}
+{%- set avatar_img_path = sidebar.extra.avatar -%}
+{%- set menus = sidebar.extra.menu -%}
+{%- set social = contact.extra.contact -%}
+
+{#- Just to keep the classes from purging while optimizing tailwind.
+    These class were used in static/script.js -#}
+<i class="w-0 w-full w-screen lg:w-full hidden"></i>
+
+<nav
+    class="h-screen box-border bg-gray-900 text-white overflow-y-auto overflow-x-hidden transition-width duration-300 
+            xms:min-width-320px w-0 lg:w-full max-w-400px z-30
+            absolute lg:static p-0 m-0"
+    id="sidebar">
+
+    {#- Expand sidebar -#}
+    <i class="fas fa-bars text-2xl text-pink-400 hover:text-pink-500 fixed p-2 m-2 left-0
+        rounded-md bg-gray-900 cursor-pointer z-10"
+        title="Show sidebar" id="expand_sidebar"></i>
+
+    <span class="relative">
+    {#- Close sidebar -#}
+    <i class="fas fa-times lg:fa-bars text-2xl text-pink-400 hover:text-pink-500
+        absolute p-2 m-2 left-0 cursor-pointer z-10 bg-gray-900"
+        title="Close sidebar" id="collapse_sidebar"></i>
+    </span>
+
+    <div class="inline-flex flex-col h-full p-4 md:pt-12 justify-between">
+        <div class="inline-flex flex-col items-center">
+            <img
+                src="{{avatar_img_path}}"
+                height="148"
+                width="148"
+                class="rounded-full border-4 border-white p-1 shadow-md"
+                alt="{{- name ~ 'from' ~ location -}}"
+                loading="lazy" />
+            <h1 class="text-4xl font-bold text-center mt-2">{{- name -}}</h1>
+            <h3 class="text-center mb-4 text-md">
+                <p class="text-pink-500 inline">{{- intro -}}</p>
+                <p class="inline">from {{ location -}}</p>
+            </h3>
+        </div>
+        <div class="inline-flex flex-col items-stretch text-center justify-around flex-grow-1">
+            {%- for menu in menus -%}
+                {%- set label = menu.label | trim -%}
+                {%- set icon = menu.icon -%}
+                {%- set target = menu.target | trim -%}
+                <a href="{{target}}" class="py-2 my-1 hover:bg-gray-800 focus:bg-gray-800 rounded-lg transition-bg duration-400 group">
+                    <i class="{{icon}} pr-2 text-gray-400 group-hover:text-pink-300"></i>{{- label -}}
+                </a>
+            {%- endfor -%}
+        </div>
+        <div class="mt-8">
+            <div class="text-center mb-2 text-lg">
+                {{- social_icons::init(social=social, show_username=false) -}}
+            </div>
+            <div class="">
+                &copy; Copyright 2021. All right reserved. Made with <i class="far fa-heart"></i> by Sudip Ghimire using <a href="https://github.com/sudipghimire533/zola-portfolio" class="text-blue-500">zola-portfolio</a> theme for <a href="https://getzola.org" target="_blank" title="Zola static site generator" class="text-blue-500">Zola</a>.
+            </div>
+        </div>
+    </div>
+</nav>
+

@@ -1,15 +1,13 @@
 # The URL the site will be built for
 base_url = "https://example.com"
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
+compile_sass = false
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
 # Index page title
 title = "My webpage"
-# Zola Theme
-theme = "portfolio"
 
 [slugify]
 paths = "on"
@@ -37,7 +35,4 @@ avatar = "static/pictures/nalinha.jpg"
 # Image of the favicon
 favicon = "static/pictures/nalinha.jpg"
 background = "static/pictures/nalinha.jpg"
-menu_items = [
-    { path = "projects/", name = "projects" },
-    { path = "#contact", name = "contact" },
-]
+
