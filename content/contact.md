@@ -3,19 +3,11 @@ title = "Reach out"
 
 [extra]
 anchor_name = "contact"
-
-location = "City, Country"
+\\
+location = "Manchester, United Kingdom"
 [extra.contact]
-# facebook = "sudip.ghimire.533"
-twitter = "@sudipghimire533"
-github = "sudipghimire533"
-# gitlab = "sudipghimire533"
-# stackoverflow = ""
-# discord = ""
-linkedin = "sudipghimire533"
-# telegram = ""
-# instagran = ""
-# paypal = ""
+github = "@legaiotte"
+linkedin = "[LeticiaGaiotte](https://www.linkedin.com/in/leticiagaiotte/)"
 email = "leticia.gaiotte@gmail.com"
 
 +++

@@ -6,7 +6,9 @@ anchor_name = "about"
 +++
 👋 Hi, I’m @legaiotte
 👀 I’m interested in making connections with Data Analytics professionals.
+\\ 
 🌱 I’m currently in career change to Data Analysis, however as a scientist, I have been developing statistics analysis since my undergraduate.
+\\
 💞️ I’m looking to collaborate on insights and build a strong data community.
 📫 How to reach me out? https://www.linkedin.com/in/leticiagaiotte/
 😄 Pronouns: SHE/HER
