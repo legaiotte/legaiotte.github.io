@@ -3,7 +3,6 @@ title = "Reach out"
 
 [extra]
 anchor_name = "contact"
-\\
 location = "Manchester, United Kingdom"
 [extra.contact]
 github = "@legaiotte"
