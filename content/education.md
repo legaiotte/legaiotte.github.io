@@ -9,46 +9,37 @@ name = "IBM Data Science Professional Certificate"
 duration = "Jan 2024 - Jun 2024"
 info = [
     "Grade: 2:1",
+    "Data Modeling, Data Warehousing and Database Administration",
     "Excel Basics for Data Analysis; Databases and SQL for Data Science with Python; IBM Data Analyst Capstone Project; Data Visualization with Python; Introduction to Data Analytics; Data Visualization and Dashboards with Excel and Cognos; Python for Data Science, AI & Development; Python Project for Data Science; Data Analysis with Python (Pandas, Numpy)."
     ]
-doc = "/documents/sample-doc.pdf"
-
-[[extra.item]]
-name = "Science Teacher"
-duration = "Jan 2023 - Nov 2024"
-info = [
-    "Axcis Education/Choice Teachers Manchester, UK",
-    "What I did there was cool",
-    "And some of the person around me were shocked for long text",
-    "Might just write some dummy things here",
-    "skill1, tag1, other, things"
-    ]
-doc = "/documents/sample-doc.pdf"
-
-[[extra.item]]
-name = "Title is here"
-duration = "Aug 2000 - Nov 2000"
-info = [
-    "Institute name pvt ltd",
-    "What I did there was cool",
-    "And some of the person around me were shocked for long text",
-    "Might just write some dummy things here",
-    "skill1, tag1, other, things"
-    ]
-doc = "/documents/sample-doc.pdf"
 
 
 [[extra.item]]
-name = "Title is here"
-duration = "Aug 2000 - Nov 2000"
+name = "EBA - Estatística do Básico ao Avançado"
+duration = "May 2023 - Jul 2024"
 info = [
-    "Institute name pvt ltd",
-    "What I did there was cool",
-    "And some of the person around me were shocked for long text",
-    "Might just write some dummy things here",
-    "skill1, tag1, other, things"
+    "Business Statistics",
+    "Statistical Data Analysis",
+    "Business",
+]
+
+
+[[extra.item]]
+name = "M.Sc. Applied Science, São Paulo State University (UNESP) 1:1 Brazil"
+duration = "Aug 2019 - Feb 2022"
+info = [
+    "São Paulo State University (UNESP) Brazil",
+    "Grade: 1:1",
+]
+
+
+[[extra.item]]
+name = "B.Sc. Biological Science"
+duration = "Aug 2014 - Feb 2017"
+info = [
+    "Northern Paraná State University (UENP) - Brazil",
+    "Grade: 2:1",
     ]
-doc = "/documents/sample-doc.pdf"
 
 
 +++
