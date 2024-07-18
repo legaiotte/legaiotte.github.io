@@ -10,7 +10,6 @@ duration = "Jan 2024 - Jun 2024"
 info = [
     "Grade: 2:1",
     "Excel Basics for Data Analysis; Databases and SQL for Data Science with Python; IBM Data Analyst Capstone Project; Data Visualization with Python; Introduction to Data Analytics; Data Visualization and Dashboards with Excel and Cognos; Python for Data Science, AI & Development; Python Project for Data Science; Data Analysis with Python (Pandas, Numpy)."
-    "
     ]
 doc = "/documents/sample-doc.pdf"
 
