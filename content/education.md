@@ -2,7 +2,7 @@
 title = "My Journey so far"
 
 [extra]
-anchor_name = "Education"
+anchor_name = "education"
 
 [[extra.item]]
 name = "IBM Data Science Professional Certificate"
