@@ -4,8 +4,8 @@
 {%- set content = skills.content -%}
 {%- set tools = skills.extra.tool -%}
 <section id="" class="py-6 sm:mx-4 px-1 sm:px-4 my-4 sm:rounded-lg" style="background-color: #272727">
-    {%- if about.extra.anchor_name is defined -%}
-        <a name="{{- about.anchor_name | trim -}}">
+    {%- if skills.extra.anchor_name is defined -%}
+        <a name="{{- skills.anchor_name | trim -}}">
     {%- endif -%}
     <h1 class="text-3xl text-white"><b class="pr-2 text-pink-400">#</b>{{- heading -}}</h1>
     <div class="text-lg text-gray-200 px-4 section-description">
