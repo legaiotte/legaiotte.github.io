@@ -7,8 +7,8 @@
 {%- set social = contact.extra.contact -%}
 {%- set location = contact.extra.location | trim -%}
 <section id="" class="py-6 sm:mx-4 px-1 sm:px-4 my-4 sm:rounded-lg" style="background-color: #272727">
-    {%- if about.extra.anchor_name is defined -%}
-        <a name="{{- about.extra.anchor_name | trim -}}"></a>
+    {%- if contact.extra.anchor_name is defined -%}
+        <a name="{{- contact.extra.anchor_name | trim -}}"></a>
     {%- endif -%}
     <h1 class="text-3xl text-white"><b class="pr-2 text-pink-400">#</b>{{- heading -}}</h1>
     <div class="text-gray-200 text-lg px-4 section-description">
