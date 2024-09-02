@@ -1,5 +1,5 @@
 +++
-title = "Reach out"
+title = "Contact"
 
 [extra]
 anchor_name = "contact"

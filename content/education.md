@@ -1,5 +1,5 @@
 +++
-title = "My Journey so far"
+title = "Education"
 
 [extra]
 anchor_name = "education"
@@ -30,6 +30,7 @@ duration = "Aug 2019 - Feb 2022"
 info = [
     "São Paulo State University (UNESP) Brazil",
     "Grade: 1:1",
+    " Collected, cleaned, and interpreted data sets to answer scientific questions about potential cancer treatments,Investigated sample patterns and trends using statistics software programs (Excel formulas, Prism), Developed analytical thinking to interpret results to figure out which concentration would be better to start a drug trial, Diagnostic analysis to explain how the compounds interacted in mammalian cells."
 ]
 doc= ""
 
@@ -39,6 +40,7 @@ duration = "Aug 2014 - Feb 2017"
 info = [
     "Northern Paraná State University (UENP) - Brazil",
     "Grade: 2:1",
+    "Developed and managed projects about metabolic disorders using data visualization tools, Utilized descriptive analysis to explore the injuries caused by poor nutrition, Perform data analysis utilizing statistics tools: Excel, SigmaStat, Stakeholder Management, Tutored and advised new members of the team, Presented results to a diverse audience."
     ]
 doc= ""
 
