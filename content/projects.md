@@ -9,7 +9,7 @@ name = "Chicago Crime Analysis using Socioeconomic, Education, and Crime Data"
 intro = "This repository contains SQL queries and analyses that leverage three key datasets from the City of Chicago Data Portal. The goal of this project is to explore relationships between socioeconomic factors, school performance, and crime patterns in Chicago."
 cover = "/images/projects/chicago.jpg"
 source = "https://github.com/legaiotte/Chicago_Crime"
-#home = "https://me.sudipg.com.np"
+#home = ""
 tags = ['sqlLite', 'Python', 'Data_Analysis', 'Datasets']
 
 [[extra.project]]
