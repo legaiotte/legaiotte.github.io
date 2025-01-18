@@ -17,7 +17,7 @@ name = "Depression project"
 intro = "The available data are results of the NHNES (National Health and Nutrition Examination Survey), carried out annually in the USA to assess the health and nutrition of adults and children; The aim of this project was to answer some questions regarding people living with depressive symptoms associated with nutrition score."
 cover = "/images/projects/depression.jpg"
 source = "https://github.com/legaiotte/Depression_project"
-home = ""
+#home = ""
 tags = ['Python', 'Seaborn', 'pandas', 'Data_analysis']
 
 [[extra.project]]
