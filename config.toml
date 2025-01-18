@@ -23,5 +23,5 @@ highlight_code = true
 # Put all your custom variables here
 # Image of your avatar displayed on the landing page
 contact_in_index = false
-background = "static/pictures/nalinha.jpg"
+#background = "static/pictures/nalinha.jpg"
 
