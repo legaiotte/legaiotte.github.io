@@ -4,6 +4,7 @@
         <i class="fas fa-circle"></i>
     </div>
     <div class="home_cover h-full relative">
+    {%if config.extra.background is defined %}
         {% set meta = get_image_metadata(path=config.extra.background) %}
         {% set image = resize_image(path=config.extra.background, width=meta.width,
         height=meta.height, op="fit") %}
@@ -12,5 +13,6 @@
             class="bg-no-repeat bg-cover bg-fixed bg-right h-full w-full right-20
             ">
         </div>
+    {% endif %}
     </div>
 </section>
