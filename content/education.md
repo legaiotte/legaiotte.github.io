@@ -15,7 +15,7 @@ info = [
 doc= ""
 
 [[extra.item]]
-name = "EBA - Estatística do Básico ao Avançado"
+name = "EBA - Business Statistics"
 duration = "May 2023 - Jul 2024"
 info = [
     "Business Statistics",
