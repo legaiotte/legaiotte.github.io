@@ -16,12 +16,12 @@ icon = "fas fa-tools"
 target="#skills"
 
 [[extra.menu]]
-label = "Project Done"
+label = "Projects"
 icon = "fas fa-award"
 target="#projects"
 
 [[extra.menu]]
-label = "Education & Work"
+label = "Education"
 icon = "fas fa-graduation-cap"
 target="#education"
 
