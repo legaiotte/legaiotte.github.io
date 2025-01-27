@@ -10,7 +10,7 @@ icon = "https://coursera.org/share/c0f10e51abb3b01f4597ddec5fbe9c0a.svg"
 
 [[extra.tool]]
 label = "Data Analysis with Python"
-icon = "https://coursera.org/share/c0f10e51abb3b01f4597ddec5fbe9c0a.svg"
+icon = "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg"
 
 [[extra.tool]]
 label = "Business Statistics"
