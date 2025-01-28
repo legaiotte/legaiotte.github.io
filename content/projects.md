@@ -20,12 +20,12 @@ source = "https://github.com/legaiotte/Depression_project"
 #home = ""
 tags = ['Python', 'Seaborn', 'pandas', 'Data_analysis']
 
-[[extra.project]]
-name = ""
-intro = ""
-cover = ""
-source = ""
-home = ""
-tags = ['', '', '', '']
+#[[extra.project]]
+#name = ""
+#intro = ""
+#cover = ""
+#source = ""
+#home = ""
+#tags = ['', '', '', '']
 
 +++
