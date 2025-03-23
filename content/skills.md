@@ -16,9 +16,9 @@ icon = "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/f
 label = "Business Statistics"
 icon = "/images/eba.png"
 
-[[extra.tool]]
-label = "IBM Data Science Profissional certificate"
-icon = "https://www.credly.com/org/coursera/badge/ibm-data-science-professional-certificate.svg"
+#[[extra.tool]]
+#label = "IBM Data Science Profissional certificate"
+#icon = "https://www.credly.com/org/coursera/badge/ibm-data-science-professional-certificate.svg"
 
 #[[extra.tool]]
 #label = "Web Development"
