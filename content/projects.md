@@ -20,6 +20,14 @@ source = "https://github.com/legaiotte/Depression_project"
 #home = ""
 tags = ['Python', 'Seaborn', 'pandas', 'Data_analysis']
 
+[[extra.project]]
+name = "State of Data Brazil 2022"
+intro = "This project aims to analyze the factors associated with salaries in the data field in Brazil. A descriptive analysis of the State_of_data_2022 dataset was developed. This survey is the result of a patnership between Data Hackers, the largest data community in Brazil, and Bain & Company, a global consultancy that helps companies and organizations promote changes that define the future of business, to map the data job market in Brazil."
+cover = "/images/projects/stateofdata.png"
+source = "https://github.com/legaiotte/State_of_data_Analysis"
+#home = ""
+tags = ['Pandas', 'Numpy', 'Matplotlib']
+
 #[[extra.project]]
 #name = ""
 #intro = ""
