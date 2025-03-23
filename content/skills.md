@@ -5,8 +5,8 @@ title = "Skills"
 anchor_name = "skills"
 
 [[extra.tool]]
-label = "Databases and SQL for Data Science with Python"
-icon = "https://coursera.org/share/c0f10e51abb3b01f4597ddec5fbe9c0a.svg"
+label = "SQL"
+icon = "/images/sql.png"
 
 [[extra.tool]]
 label = "Data Analysis with Python"
@@ -14,7 +14,7 @@ icon = "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/f
 
 [[extra.tool]]
 label = "Business Statistics"
-icon = "https://renatabiaggi.com/eba/.svg"
+icon = "/images/eba.png"
 
 [[extra.tool]]
 label = "IBM Data Science Profissional certificate"
