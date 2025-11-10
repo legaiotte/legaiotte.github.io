@@ -5,6 +5,10 @@ title = "Skills"
 anchor_name = "skills"
 
 [[extra.tool]]
+label = "Power Platform"
+icon = "/images/power-platform.png"
+
+[[extra.tool]]
 label = "SQL"
 icon = "/images/sql.png"
 
