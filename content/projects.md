@@ -32,7 +32,7 @@ tags = ['Pandas', 'Numpy', 'Matplotlib']
 name = "Project Management"
 intro = "On a daily basis, ensuring projects stay on track can be challenge and overwhelming, specifically when there are different moving parts involved. Time is crucial to get the information quickly and in an efficient way, completing monotonous tasks such as client requests, tracking due dates, following ups tasks with team members and much more. Power Automate can be used to streamline this process and help us to manage projects in an effective way. This project aims to improve the internal communication between the technical team, the sales team and the managers."
 cover = "/images/projects/Projectmanagement.jpg"
-source = "https://github.com/legaiotte/State_of_data_Analysis"
+source = "https://github.com/legaiotte/Project_Management"
 #home = ""
 tags = ['Power Platform', 'Canvas App', 'Model Driven-App', 'Date format']
 
