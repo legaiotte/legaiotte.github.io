@@ -1,6 +1,6 @@
 +++
 title = "Leticia Gaiotte"
-description = "Data Analyst"
+description = "Consultant"
 
 [extra]
 avatar = "/images/about.jpg"
